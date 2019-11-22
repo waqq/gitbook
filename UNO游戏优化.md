@@ -67,7 +67,11 @@ scroller组件是为了提高界面渲染性能去开发的，很出现多个相
 
 7、截图分享（离屏canvas）
 
-8、减少drawcall
+8、减少drawcall （call draw 越小越好）
+
+canvas的drawcall 是每帧调用draw（绘制）的次数
+
+webgl的drawcall 表示 渲染提交批次 每次把数据通知到GPU渲染绘制的过程为1个drawcall
 
 9、列表
 
