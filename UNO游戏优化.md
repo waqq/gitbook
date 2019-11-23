@@ -84,3 +84,5 @@ webgl的drawcall 表示 渲染提交批次 每次把数据通知到GPU渲染绘�
 
 优化drawcall 可以通过 设置复杂节点的cacheas来减少
 
+webgl模式下 可以优化层级来减少drawcall
+
